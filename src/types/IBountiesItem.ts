@@ -22,7 +22,7 @@ export interface IBountiesItem {
   name: string;
   needed_points: number;
   needed_visits: number;
-  pictures: Array<string>;
+  pictures: Partial<any>;
   point_contest: boolean;
   ranks: number;
   redeem_count: number | null;
@@ -44,14 +44,14 @@ export interface IBountiesItem {
   valid_from: Partial<any> | null;
   valid_until: string | null;
   manual_claim: boolean;
-  shop: IShop;
+  shop: IShop | null;
   category: string | null;
   condition_id: string | null;
   is_expired: boolean;
   point_pool: string | null;
   order: string | null;
   terms: string | null;
-  variations: string | null;
+  variations: {} | null;
   type: number;
   reward_is_collected?: boolean;
 }

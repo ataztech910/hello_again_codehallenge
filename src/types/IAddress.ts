@@ -5,5 +5,5 @@ export interface IAddress {
   city_code: string;
   city: string;
   location: ILocation;
-  auto_location: false;
+  auto_location: boolean;
 }

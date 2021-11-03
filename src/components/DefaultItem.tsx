@@ -9,7 +9,7 @@ import {
   calculateRewardAction,
   collectRewardAction,
 } from "../redux/actions/BountiesActions";
-import { Avatar, Badge, Text } from "react-native-elements";
+import { Avatar, Badge } from "react-native-elements";
 import { ActivityIndicator, View } from "react-native";
 import { DefaultBadge } from "./DefaultBadge";
 Icon.loadFont();
